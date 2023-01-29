@@ -44,20 +44,21 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.lbl_error = new System.Windows.Forms.Label();
+            this.lbl_lastoperator = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_valueone
             // 
-            this.txt_valueone.Location = new System.Drawing.Point(344, 114);
+            this.txt_valueone.Location = new System.Drawing.Point(332, 114);
             this.txt_valueone.Name = "txt_valueone";
             this.txt_valueone.Size = new System.Drawing.Size(138, 26);
             this.txt_valueone.TabIndex = 0;
             // 
             // txt_valueTwo
             // 
-            this.txt_valueTwo.Location = new System.Drawing.Point(344, 167);
+            this.txt_valueTwo.Location = new System.Drawing.Point(332, 167);
             this.txt_valueTwo.Name = "txt_valueTwo";
             this.txt_valueTwo.Size = new System.Drawing.Size(138, 26);
             this.txt_valueTwo.TabIndex = 1;
@@ -65,7 +66,7 @@
             // txt_answer
             // 
             this.txt_answer.HideSelection = false;
-            this.txt_answer.Location = new System.Drawing.Point(344, 268);
+            this.txt_answer.Location = new System.Drawing.Point(332, 268);
             this.txt_answer.Name = "txt_answer";
             this.txt_answer.ReadOnly = true;
             this.txt_answer.Size = new System.Drawing.Size(138, 26);
@@ -102,9 +103,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(507, 356);
+            this.button1.Location = new System.Drawing.Point(507, 353);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 37);
+            this.button1.Size = new System.Drawing.Size(84, 40);
             this.button1.TabIndex = 11;
             this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = true;
@@ -157,7 +158,7 @@
             "mul",
             "sub",
             "divid"});
-            this.cbn_choice.Location = new System.Drawing.Point(344, 216);
+            this.cbn_choice.Location = new System.Drawing.Point(332, 216);
             this.cbn_choice.Name = "cbn_choice";
             this.cbn_choice.Size = new System.Drawing.Size(138, 28);
             this.cbn_choice.TabIndex = 15;
@@ -176,9 +177,9 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(412, 300);
+            this.button2.Location = new System.Drawing.Point(412, 310);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 36);
+            this.button2.Size = new System.Drawing.Size(87, 39);
             this.button2.TabIndex = 17;
             this.button2.Text = "Calculate";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -195,11 +196,22 @@
             this.lbl_error.Size = new System.Drawing.Size(0, 20);
             this.lbl_error.TabIndex = 18;
             // 
+            // lbl_lastoperator
+            // 
+            this.lbl_lastoperator.AutoSize = true;
+            this.lbl_lastoperator.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_lastoperator.Location = new System.Drawing.Point(167, 373);
+            this.lbl_lastoperator.Name = "lbl_lastoperator";
+            this.lbl_lastoperator.Size = new System.Drawing.Size(111, 20);
+            this.lbl_lastoperator.TabIndex = 19;
+            this.lbl_lastoperator.Text = "Last Operator:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(603, 478);
+            this.Controls.Add(this.lbl_lastoperator);
             this.Controls.Add(this.lbl_error);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);
@@ -246,6 +258,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lbl_error;
+        private System.Windows.Forms.Label lbl_lastoperator;
     }
 }
 
