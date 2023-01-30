@@ -9,3 +9,4 @@ C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculator\calculator\obj\Debug
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculator\calculator\obj\Debug\calculator.history.resources

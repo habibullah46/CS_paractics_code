@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace calculator
@@ -6,6 +7,7 @@ namespace calculator
     public partial class Form1 : Form
     {
         string LastOPerator = null;
+        List<string> HistoryMantain = new List<string>();
         calculator cal = new calculator();
         public Form1()
         {
@@ -81,6 +83,7 @@ namespace calculator
                 }
             }
             lbl_lastoperator.Text = "last operator is :" + LastOPerator;
+            HistoryMantain.Add(LastOPerator);
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -90,5 +93,10 @@ namespace calculator
             txt_valueone.Focus();
         }
 
+        private void btn_history_Click(object sender, EventArgs e)
+        {
+            history History = new history();
+            History.loadlist(HistoryMantain);
+        }
     }
 }

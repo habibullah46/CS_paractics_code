@@ -45,6 +45,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.lbl_error = new System.Windows.Forms.Label();
             this.lbl_lastoperator = new System.Windows.Forms.Label();
+            this.btn_history = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -103,9 +104,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(507, 353);
+            this.button1.Location = new System.Drawing.Point(525, 362);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 40);
+            this.button1.Size = new System.Drawing.Size(73, 35);
             this.button1.TabIndex = 11;
             this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = true;
@@ -143,7 +144,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 113);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 104);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(206, 250);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,7 +178,7 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(412, 310);
+            this.button2.Location = new System.Drawing.Point(383, 312);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 39);
             this.button2.TabIndex = 17;
@@ -206,11 +207,23 @@
             this.lbl_lastoperator.TabIndex = 19;
             this.lbl_lastoperator.Text = "Last Operator:";
             // 
+            // btn_history
+            // 
+            this.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_history.Location = new System.Drawing.Point(2, 363);
+            this.btn_history.Name = "btn_history";
+            this.btn_history.Size = new System.Drawing.Size(85, 34);
+            this.btn_history.TabIndex = 20;
+            this.btn_history.Text = "History";
+            this.btn_history.UseVisualStyleBackColor = true;
+            this.btn_history.Click += new System.EventHandler(this.btn_history_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(603, 478);
+            this.Controls.Add(this.btn_history);
             this.Controls.Add(this.lbl_lastoperator);
             this.Controls.Add(this.lbl_error);
             this.Controls.Add(this.button2);
@@ -231,6 +244,7 @@
             this.MaximumSize = new System.Drawing.Size(625, 534);
             this.MinimumSize = new System.Drawing.Size(625, 534);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -259,6 +273,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lbl_error;
         private System.Windows.Forms.Label lbl_lastoperator;
+        private System.Windows.Forms.Button btn_history;
     }
 }
 
