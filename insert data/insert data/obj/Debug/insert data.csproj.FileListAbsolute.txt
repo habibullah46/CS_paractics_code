@@ -1,0 +1,11 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\bin\Debug\insert data.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\bin\Debug\insert data.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\bin\Debug\insert data.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert_data.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert_data.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\insert data\insert data\obj\Debug\insert data.pdb

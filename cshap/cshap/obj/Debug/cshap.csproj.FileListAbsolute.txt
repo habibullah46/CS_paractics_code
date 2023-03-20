@@ -1,0 +1,8 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\bin\Debug\cshap.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\bin\Debug\cshap.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\bin\Debug\cshap.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\obj\Debug\cshap.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\obj\Debug\cshap.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\obj\Debug\cshap.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\obj\Debug\cshap.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\cshap\cshap\obj\Debug\cshap.pdb

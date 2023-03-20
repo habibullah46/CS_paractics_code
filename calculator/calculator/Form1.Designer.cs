@@ -71,7 +71,7 @@
             this.txt_answer.Name = "txt_answer";
             this.txt_answer.ReadOnly = true;
             this.txt_answer.Size = new System.Drawing.Size(138, 26);
-            this.txt_answer.TabIndex = 2;
+            this.txt_answer.TabIndex = 35;
             this.txt_answer.TextChanged += new System.EventHandler(this.txt_answer_TextChanged);
             // 
             // label2
@@ -107,7 +107,7 @@
             this.button1.Location = new System.Drawing.Point(525, 362);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(73, 35);
-            this.button1.TabIndex = 11;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -162,7 +162,7 @@
             this.cbn_choice.Location = new System.Drawing.Point(332, 216);
             this.cbn_choice.Name = "cbn_choice";
             this.cbn_choice.Size = new System.Drawing.Size(138, 28);
-            this.cbn_choice.TabIndex = 15;
+            this.cbn_choice.TabIndex = 2;
             this.cbn_choice.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label5
@@ -181,7 +181,7 @@
             this.button2.Location = new System.Drawing.Point(383, 312);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 39);
-            this.button2.TabIndex = 17;
+            this.button2.TabIndex = 3;
             this.button2.Text = "Calculate";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
@@ -213,7 +213,7 @@
             this.btn_history.Location = new System.Drawing.Point(2, 363);
             this.btn_history.Name = "btn_history";
             this.btn_history.Size = new System.Drawing.Size(85, 34);
-            this.btn_history.TabIndex = 20;
+            this.btn_history.TabIndex = 6;
             this.btn_history.Text = "History";
             this.btn_history.UseVisualStyleBackColor = true;
             this.btn_history.Click += new System.EventHandler(this.btn_history_Click);

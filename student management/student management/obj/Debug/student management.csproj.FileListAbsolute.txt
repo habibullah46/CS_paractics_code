@@ -1,0 +1,11 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\bin\Debug\student management.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\bin\Debug\student management.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\bin\Debug\student management.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student_management.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student_management.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\student management\student management\obj\Debug\student management.pdb

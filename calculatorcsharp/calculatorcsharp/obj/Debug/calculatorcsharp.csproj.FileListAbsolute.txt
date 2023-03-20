@@ -1,0 +1,8 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\obj\Debug\calculatorcsharp.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\obj\Debug\calculatorcsharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\obj\Debug\calculatorcsharp.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\bin\Debug\calculatorcsharp.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\bin\Debug\calculatorcsharp.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\bin\Debug\calculatorcsharp.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\obj\Debug\calculatorcsharp.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\calculatorcsharp\calculatorcsharp\obj\Debug\calculatorcsharp.pdb

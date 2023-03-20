@@ -50,7 +50,7 @@ namespace calculator
             {
                 try
                 {
-                    txt_answer.Text = cal.mul(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
+                    LastOPerator = txt_answer.Text = cal.mul(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
                 }
                 catch(Exception ex)
                 {
@@ -62,7 +62,7 @@ namespace calculator
             {
                 try
                 {
-                    LastOPerator = txt_answer.Text = cal.sub(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
+                    LastOPerator = LastOPerator = txt_answer.Text = cal.sub(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
                 }
                 catch(Exception ex)
                 {
@@ -75,7 +75,7 @@ namespace calculator
             {
                 try
                 {
-                    LastOPerator = txt_answer.Text = cal.divid(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
+                    LastOPerator = LastOPerator = txt_answer.Text = cal.divid(Convert.ToInt32(txt_valueone.Text), Convert.ToInt32(txt_valueTwo.Text)).ToString();
                 }
                 catch (Exception ex)
                 {
