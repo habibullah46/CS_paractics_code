@@ -1,0 +1,8 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\bin\Debug\practics program.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\bin\Debug\practics program.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\bin\Debug\practics program.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\obj\Debug\practics program.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\obj\Debug\practics program.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\obj\Debug\practics program.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\obj\Debug\practics program.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\practics program\practics program\obj\Debug\practics program.pdb

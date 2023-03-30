@@ -38,8 +38,10 @@ namespace ATM
             Console.WriteLine("\n\n\t\t\t\t\tUSER NAME: HABIBULLAH");
             Console.Write("Please Enter Your Pin Code: ");
             int pasword = 1234;
+          
             int password = int.Parse(Console.ReadLine());
-            if(password == pasword)
+            Console.Clear();
+            if (password == pasword)
             {
                 int total_Amount = 15000;
                 Console.WriteLine("Enter Your Choice\n1.Cash Withdraw \n2.Transfer\n3.Blance inquary");
@@ -96,6 +98,10 @@ namespace ATM
                         break;
                 }
 
+            }
+            else
+            {
+                Console.WriteLine("Wrong Password..\nPlease Try Again letar");
             }
             Console.ReadLine();
 
