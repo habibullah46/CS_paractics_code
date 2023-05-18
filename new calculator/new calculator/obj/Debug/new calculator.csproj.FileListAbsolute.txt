@@ -1,0 +1,11 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new_calculator.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new_calculator.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\bin\Debug\new calculator.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\bin\Debug\new calculator.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\bin\Debug\new calculator.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.pdb

@@ -5,40 +5,38 @@ using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Policy;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace practics_program
 {
-    internal class Program
-    {
-        //static void Main(string[] args)
-        //{
-        //    car Car = new car();
-        //    Car.information_about_car();
-        //    Console.ReadLine();
-
-        //}
-    }
-    class car
-    {
-        private string model;
-        private string color;
-        private string price;
-        public  void information_about_car()
+    public class animal 
         {
-            Console.WriteLine("Model: "+model);
-            Console.WriteLine("color: " + color);
-            Console.WriteLine("price: "+ price);
-
+        protected int  a = 90;
+          protected    void dog1()
+        {
+            Console.WriteLine("dog is eating;");
+          //  Console.WriteLine("the value of a  is : " + a);
         }
-        static void Main(string[] args)
+        }
+    public class animal2:animal
+    {
+        private void dog()
         {
-            car Car = new car();
-            Car.price = "202123";
-            Console.WriteLine(Car.price);
+            Console.WriteLine("animal 2 dog is eating");
+            Console.WriteLine("the value oe a " + a) ;
+        }
+     
+          
+        
+        public static void main(string[] args)
+        {
+          animal2 ani = new animal2();
+            ani.dog();
             
         }
+      
     }
 }
