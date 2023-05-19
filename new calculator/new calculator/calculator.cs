@@ -16,5 +16,17 @@ namespace new_calculator
         {
             return a - b;
         }
+        public int mul(int a, int b)
+        {
+            return a * b;
+        }
+        public float  divid(float   a, float    b)
+        {
+            float d = a / b;
+            return d;
+
+
+        }
+
     }
 }

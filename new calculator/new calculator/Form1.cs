@@ -18,17 +18,44 @@ namespace new_calculator
         {
             InitializeComponent();
         }
-
-        private void btn_sum_Click(object sender, EventArgs e)
+        private void btn_calculate_Click(object sender, EventArgs e)
         {
-            txt_answer.Text = mycall.Add(int.Parse(txt_valueOne.Text), int.Parse(txt_valueTwo.Text)).ToString();
+            if(cmb_choice.Text == "Add")
+            {
+                try
+                {
+                    txt_answer.Text = mycall.Add(int.Parse(txt_valueOne.Text), int.Parse(txt_valueTwo.Text)).ToString();
+                    clear();
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show("NOT VALID INPUT","ERROR",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    clear();
+                }
+               
+            }
+            else if (cmb_choice.Text == "Sub")
+            {
+                txt_answer.Text = mycall.sub(int.Parse(txt_valueOne.Text), int.Parse(txt_valueTwo.Text)).ToString();
+               clear();
+            }
+            else if (cmb_choice.Text == "Mul")
+            {
+                txt_answer.Text = mycall.mul(int.Parse(txt_valueOne.Text), int.Parse(txt_valueTwo.Text)).ToString();
+                clear();
+            }
+            else if (cmb_choice.Text == "Divid")
+            {
+                txt_answer.Text = mycall.divid(int.Parse(txt_valueOne.Text), int.Parse(txt_valueTwo.Text)).ToString();
+                clear();
+            }
 
         }
-
-        private void btn_subtraction_Click(object sender, EventArgs e)
+        private void clear()
         {
-            txt_answer.Text = mycall.sub(int.Parse(txt_valueOne.Text),int.Parse(txt_valueTwo.Text)).ToString();
+            txt_valueOne.Clear();
+            txt_valueTwo.Clear();
+            txt_valueOne.Focus();
         }
-       
     }
 }
