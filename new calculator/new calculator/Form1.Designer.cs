@@ -42,9 +42,9 @@
             this.batton = new System.Windows.Forms.Label();
             this.btn_calculate = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.lbl_error = new System.Windows.Forms.Label();
+            this.lbl_lastans = new System.Windows.Forms.Label();
+            this.btn_History = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -162,37 +162,43 @@
             this.panel1.Size = new System.Drawing.Size(809, 127);
             this.panel1.TabIndex = 14;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 506);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(826, 59);
-            this.panel2.TabIndex = 15;
-            // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(254, 21);
+            this.button1.Location = new System.Drawing.Point(247, 36);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(332, 88);
             this.button1.TabIndex = 0;
             this.button1.Text = "Calculator";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // lbl_error
+            // lbl_lastans
             // 
-            this.lbl_error.AutoSize = true;
-            this.lbl_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_error.ForeColor = System.Drawing.Color.IndianRed;
-            this.lbl_error.Location = new System.Drawing.Point(46, 474);
-            this.lbl_error.Name = "lbl_error";
-            this.lbl_error.Size = new System.Drawing.Size(0, 20);
-            this.lbl_error.TabIndex = 16;
+            this.lbl_lastans.AutoSize = true;
+            this.lbl_lastans.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_lastans.ForeColor = System.Drawing.Color.IndianRed;
+            this.lbl_lastans.Location = new System.Drawing.Point(28, 486);
+            this.lbl_lastans.Name = "lbl_lastans";
+            this.lbl_lastans.Size = new System.Drawing.Size(139, 22);
+            this.lbl_lastans.TabIndex = 16;
+            this.lbl_lastans.Text = "Last Operator:";
+            // 
+            // btn_History
+            // 
+            this.btn_History.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_History.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_History.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_History.Location = new System.Drawing.Point(671, 521);
+            this.btn_History.Name = "btn_History";
+            this.btn_History.Size = new System.Drawing.Size(143, 32);
+            this.btn_History.TabIndex = 17;
+            this.btn_History.Text = "Histroy";
+            this.btn_History.UseVisualStyleBackColor = true;
+            this.btn_History.Click += new System.EventHandler(this.btn_History_Click);
             // 
             // Form1
             // 
@@ -200,8 +206,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(826, 565);
-            this.Controls.Add(this.lbl_error);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btn_History);
+            this.Controls.Add(this.lbl_lastans);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_calculate);
             this.Controls.Add(this.batton);
@@ -244,8 +250,8 @@
         private System.Windows.Forms.Button btn_calculate;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lbl_error;
+        private System.Windows.Forms.Label lbl_lastans;
+        private System.Windows.Forms.Button btn_History;
     }
 }
 

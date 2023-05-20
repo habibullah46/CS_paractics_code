@@ -9,3 +9,4 @@ C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\b
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\bin\Debug\new calculator.pdb
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.exe
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new calculator.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\new calculator\new calculator\obj\Debug\new_calculator.HistoryMantian.resources
