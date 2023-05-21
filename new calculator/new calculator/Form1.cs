@@ -87,8 +87,9 @@ namespace new_calculator
                
             }
 
-            lbl_lastans.Text = "LAST OPERATOR: "+history;
-            savehistoy.Add(history);
+            lbl_lastans.Text = txt_valueOne.Text+" + "+txt_valueTwo.Text+" = "+ history;
+            
+            savehistoy.Add(lbl_lastans.Text);
             clear();
         }
        

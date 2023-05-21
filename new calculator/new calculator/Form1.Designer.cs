@@ -183,9 +183,9 @@
             this.lbl_lastans.ForeColor = System.Drawing.Color.IndianRed;
             this.lbl_lastans.Location = new System.Drawing.Point(28, 486);
             this.lbl_lastans.Name = "lbl_lastans";
-            this.lbl_lastans.Size = new System.Drawing.Size(139, 22);
+            this.lbl_lastans.Size = new System.Drawing.Size(135, 22);
             this.lbl_lastans.TabIndex = 16;
-            this.lbl_lastans.Text = "Last Operator:";
+            this.lbl_lastans.Text = "Last operator:";
             // 
             // btn_History
             // 
