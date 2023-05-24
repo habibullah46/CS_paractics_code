@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace studentform
 {
@@ -22,7 +23,7 @@ namespace studentform
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string commandquery = "INSERT INTO c#2023 VALUES ('"+txt_regid.Text+"','"+txt_name.Text+"','"+txt_fathername.Text+"';'"+txt_mobile.Text+"','"+txt_RollNo.Text+"','"+txt_email.Text+"','"+txt_address.Text+"')";
+            string commandquery = "INSERT INTO c#2023 VALUES ('"+txt_regid.Text+"','"+txt_name.Text+"','"+txt_fathername.Text+"','"+txt_mobile.Text+"','"+txt_RollNo.Text+"','"+txt_email.Text+"','"+txt_address.Text+"')";
            SqlConnection con = new SqlConnection(ConString);
            con.Open();
             SqlCommand cmd = new SqlCommand(commandquery, con);
