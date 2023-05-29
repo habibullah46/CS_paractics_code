@@ -1,0 +1,11 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\bin\Debug\MyStudentform.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\bin\Debug\MyStudentform.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\bin\Debug\MyStudentform.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.pdb
