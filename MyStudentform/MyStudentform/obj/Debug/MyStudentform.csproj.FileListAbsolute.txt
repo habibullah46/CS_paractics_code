@@ -9,3 +9,4 @@ C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.csproj.CoreCompileInputs.cache
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.exe
 C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\MyStudentform\MyStudentform\obj\Debug\MyStudentform.Editstudent.resources
