@@ -60,5 +60,15 @@ namespace MyStudentform
                 Helerclass.Clear(this);
             }
         }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            string UpdateQuery = "UPDATE tbl_student SET Name='"+txt_name.Text+"',FatherName = '"+txt_fatherName.Text+"',Mobile='"+txt_Mobile.Text+"',RNo='"+txt_RolNo.Text+"',Email='"+txt_email.Text+"',Address='"+txt_address.Text+"' ";
+            SqlConnection con = new SqlConnection(Helerclass.ConString);
+            con.Open();
+            SqlCommand cmd = new SqlCommand(UpdateQuery, con);
+            cmd.ExecuteNonQuery();
+             MessageBox.Show("Udate Successfully!","sucessfully",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }
