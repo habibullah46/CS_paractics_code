@@ -1,0 +1,12 @@
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\bin\Debug\GBSO Form.exe.config
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\bin\Debug\GBSO Form.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\bin\Debug\GBSO Form.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO_Form.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO_Form.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.exe
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO Form.pdb
+C:\Users\TIME COMPUTER\Desktop\CS_paractics_code\GBSO Form\GBSO Form\obj\Debug\GBSO_Form.Edit_Form.resources
