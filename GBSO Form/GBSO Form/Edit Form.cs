@@ -15,7 +15,7 @@ namespace GBSO_Form
     public partial class Edit_Form : Form
     {
         string connt = System.Configuration.ConfigurationManager.ConnectionStrings["myConString"].ToString();
-        
+
         public Edit_Form()
         {
             InitializeComponent();
@@ -30,18 +30,19 @@ namespace GBSO_Form
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           string Qery = "SELECT * FROM tbl_GBSO WHERE CNIC = '" + cmd_cnic.Text+"'".ToString();
+            string Qery = "SELECT * FROM tbl_GBSO WHERE CNIC = '" + cmd_cnic.Text + "'".ToString();
             SqlConnection con = new SqlConnection(connt);
             con.Open();
-            SqlCommand cmd = new SqlCommand(Qery , con);
-            SqlDataReader dr =  cmd.ExecuteReader();
-            if(dr.Read())
+            SqlCommand cmd = new SqlCommand(Qery, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.Read())
             {
                 txt_name.Text = dr["Name"].ToString();
-                txt_fname.Text= dr["FName"].ToString();
-                txt_department.Text = dr["Department"].ToString() ;
+                txt_fname.Text = dr["FName"].ToString();
+                txt_department.Text = dr["Department"].ToString();
                 txt_batch.Text = dr["Batch"].ToString();
-                txt_Address.Text = dr["Address"].ToString();
+                txt_phone.Text = dr["Phone"].ToString();
+                cmd_address.Text = dr["Address"].ToString();
 
             }
 
@@ -58,8 +59,35 @@ namespace GBSO_Form
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Delete Successfully!","Alert",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("Delete Successfully!", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                Clear(this);
 
+            }
+        }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Do u want to update " + txt_name.Text + " Data", "conformation message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                string updatequery = "UPDATE tbl_GBSO SET  Name = '" + txt_name.Text + "',FName='" + txt_fname.Text + "',Department='" + txt_department.Text + "',Batch='" + txt_batch.Text + "',Phone ='" + txt_phone.Text + "',Address='" + cmd_address.Text + "'".ToString();
+                SqlConnection con = new SqlConnection(connt);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(updatequery, con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Update successfully!", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                Clear(this);
+            }
+        }
+        private void Clear(Form form)
+        {
+            foreach (var item in form.Controls)
+            {
+                if (item is TextBox)
+                {
+                    TextBox txt = (TextBox)item;
+                    txt.Clear();
+                }
             }
         }
     }
